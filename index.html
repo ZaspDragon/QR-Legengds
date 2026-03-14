@@ -1,1 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QR Legends Dashboard</title>
 
+<style>
+
+body{
+font-family:Arial;
+background:#0f172a;
+color:white;
+margin:0;
+padding:0;
+}
+
+header{
+background:#020617;
+padding:20px;
+text-align:center;
+}
+
+h1{
+color:#3b82f6;
+}
+
+.container{
+padding:20px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+}
+
+button{
+background:#3b82f6;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2563eb;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+th,td{
+border-bottom:1px solid #334155;
+padding:10px;
+text-align:left;
+}
+
+input{
+padding:10px;
+border-radius:6px;
+border:none;
+width:100%;
+margin-top:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>QR Legends</h1>
+<p>Warehouse Management Dashboard</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Search Containers</h2>
+
+<input id="searchBox" placeholder="Enter container ID..." />
+
+<button onclick="searchContainer()">Search</button>
+
+<p id="result"></p>
+
+</div>
+
+<div class="card">
+
+<h2>Containers</h2>
+
+<table id="containerTable">
+<tr>
+<th>ID</th>
+<th>Status</th>
+<th>Location</th>
+</tr>
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Deliveries</h2>
+
+<table id="deliveryTable">
+<tr>
+<th>ID</th>
+<th>Status</th>
+</tr>
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Activity Logs</h2>
+
+<table id="activityTable">
+<tr>
+<th>User</th>
+<th>Action</th>
+<th>Time</th>
+</tr>
+</table>
+
+</div>
+
+</div>
+
+<script>
+
+let containers=[]
+let deliveries=[]
+let activityLogs=[]
+
+async function loadData(){
+
+try{
+
+const containerRes=await fetch("./data/containers.json")
+containers=await containerRes.json()
+
+const deliveryRes=await fetch("./data/deliveries.json")
+deliveries=await deliveryRes.json()
+
+const activityRes=await fetch("./data/activity_logs.json")
+activityLogs=await activityRes.json()
+
+renderContainers()
+renderDeliveries()
+renderActivity()
+
+}catch(e){
+
+console.log("Data loading error",e)
+
+}
+
+}
+
+function renderContainers(){
+
+const table=document.getElementById("containerTable")
+
+containers.forEach(c=>{
+
+let row=table.insertRow()
+
+row.insertCell(0).innerText=c.id || "N/A"
+row.insertCell(1).innerText=c.status || "Unknown"
+row.insertCell(2).innerText=c.location || "Unknown"
+
+})
+
+}
+
+function renderDeliveries(){
+
+const table=document.getElementById("deliveryTable")
+
+deliveries.forEach(d=>{
+
+let row=table.insertRow()
+
+row.insertCell(0).innerText=d.id || "N/A"
+row.insertCell(1).innerText=d.status || "Unknown"
+
+})
+
+}
+
+function renderActivity(){
+
+const table=document.getElementById("activityTable")
+
+activityLogs.slice(0,10).forEach(a=>{
+
+let row=table.insertRow()
+
+row.insertCell(0).innerText=a.user || "System"
+row.insertCell(1).innerText=a.action || "Unknown"
+row.insertCell(2).innerText=a.time || ""
+
+})
+
+}
+
+function searchContainer(){
+
+let id=document.getElementById("searchBox").value
+
+let found=containers.find(c=>c.id==id)
+
+if(found){
+
+document.getElementById("result").innerText=
+"Container Found: "+JSON.stringify(found)
+
+}else{
+
+document.getElementById("result").innerText=
+"Container Not Found"
+
+}
+
+}
+
+loadData()
+
+</script>
+
+</body>
+</html>
