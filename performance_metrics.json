@@ -1,0 +1,38 @@
+{
+  "demo-company-1": {
+    "daily_throughput": 1250,
+    "accuracy_rate": 99.2,
+    "cycle_time_minutes": 4.5,
+    "pick_rate_per_hour": 185,
+    "receiving_rate_per_hour": 95,
+    "inventory_turns": 8.3,
+    "space_utilization": 87.5,
+    "labor_efficiency": 94.2,
+    "order_fill_rate": 98.7,
+    "damage_rate": 0.3
+  },
+  "demo-company-2": {
+    "daily_throughput": 850,
+    "accuracy_rate": 97.8,
+    "cycle_time_minutes": 6.2,
+    "pick_rate_per_hour": 165,
+    "receiving_rate_per_hour": 78,
+    "inventory_turns": 6.1,
+    "space_utilization": 82.3,
+    "labor_efficiency": 89.7,
+    "order_fill_rate": 96.4,
+    "damage_rate": 0.7
+  },
+  "demo-company-3": {
+    "daily_throughput": 450,
+    "accuracy_rate": 98.9,
+    "cycle_time_minutes": 5.1,
+    "pick_rate_per_hour": 145,
+    "receiving_rate_per_hour": 65,
+    "inventory_turns": 12.7,
+    "space_utilization": 91.2,
+    "labor_efficiency": 92.3,
+    "order_fill_rate": 99.1,
+    "damage_rate": 0.2
+  }
+}

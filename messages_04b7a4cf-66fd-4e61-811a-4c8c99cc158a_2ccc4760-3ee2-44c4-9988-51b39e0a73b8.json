@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1754263636285",
+    "content": "I would like to schedule a one-on-one meeting with you this week. Please let me know your availability.",
+    "sender": "manager",
+    "timestamp": "2025-08-03T23:27:16.285Z",
+    "type": "meeting"
+  },
+  {
+    "id": "1754263705337",
+    "content": "Great Job this week !",
+    "sender": "manager",
+    "timestamp": "2025-08-03T23:28:25.337Z",
+    "type": null
+  }
+]

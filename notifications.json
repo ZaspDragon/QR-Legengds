@@ -1,0 +1,62 @@
+{
+  "b4b1180f-f973-45fe-99c5-b4de50e42b98": [
+    {
+      "id": "ec56a9a8-d62d-4ed9-8146-1632f5682049",
+      "title": "Subscription Cancelled",
+      "message": "Your subscription has been cancelled and will remain active until August 01, 2025",
+      "priority": "warning",
+      "timestamp": "2025-07-30T00:59:58.454072",
+      "read": false,
+      "user_id": "b4b1180f-f973-45fe-99c5-b4de50e42b98",
+      "company_id": "b4b1180f-f973-45fe-99c5-b4de50e42b98"
+    }
+  ],
+  "2ccc4760-3ee2-44c4-9988-51b39e0a73b8": [
+    {
+      "id": "9b01adc5-a72b-476a-bd57-6e1a9b9e0ae3",
+      "title": "New Message from Manager",
+      "message": "You have a new message: I would like to schedule a one-on-one meeting with...",
+      "priority": "normal",
+      "timestamp": "2025-08-03T23:27:16.352302",
+      "read": false,
+      "user_id": "2ccc4760-3ee2-44c4-9988-51b39e0a73b8",
+      "company_id": "04b7a4cf-66fd-4e61-811a-4c8c99cc158a",
+      "type": "message"
+    },
+    {
+      "id": "a0105587-b5a1-46cc-a6aa-8bbc863742d3",
+      "title": "New Message from Manager",
+      "message": "You have a new message: Great Job this week !",
+      "priority": "normal",
+      "timestamp": "2025-08-03T23:28:25.418182",
+      "read": false,
+      "user_id": "2ccc4760-3ee2-44c4-9988-51b39e0a73b8",
+      "company_id": "04b7a4cf-66fd-4e61-811a-4c8c99cc158a",
+      "type": "message"
+    }
+  ],
+  "f89058c0-843c-4132-8834-cb1677904358": [
+    {
+      "id": "0a4f94e0-38d4-41be-95cf-f1b18f307153",
+      "title": "New Message from Manager",
+      "message": "You have a new message: I've reviewed your recent performance metrics and ...",
+      "priority": "normal",
+      "timestamp": "2025-08-03T23:34:07.646278",
+      "read": false,
+      "user_id": "f89058c0-843c-4132-8834-cb1677904358",
+      "company_id": "04b7a4cf-66fd-4e61-811a-4c8c99cc158a",
+      "type": "message"
+    },
+    {
+      "id": "34e8ac09-7960-43a0-b6f9-e75d8204509d",
+      "title": "New Message from Manager",
+      "message": "You have a new message: Please see me in my office when you have a moment.",
+      "priority": "normal",
+      "timestamp": "2025-08-03T23:34:15.997542",
+      "read": false,
+      "user_id": "f89058c0-843c-4132-8834-cb1677904358",
+      "company_id": "04b7a4cf-66fd-4e61-811a-4c8c99cc158a",
+      "type": "message"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "receiving": {
+    "name": "Receiving",
+    "active_containers": []
+  },
+  "transfers": {
+    "name": "Transfers",
+    "active_containers": []
+  },
+  "inventory": {
+    "name": "Inventory",
+    "active_containers": []
+  },
+  "order_picking": {
+    "name": "Order Picking",
+    "active_containers": []
+  },
+  "problem_solving": {
+    "name": "Problem Solving",
+    "active_containers": []
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "demo-company-1": {
+    "company_id": "demo-company-1",
+    "plan": "unlimited_warehouse",
+    "price": 4999.0,
+    "billing_cycle": "monthly",
+    "status": "active",
+    "is_trial": false,
+    "users": 6,
+    "start_date": "2025-01-15T10:00:00.000000",
+    "next_billing_date": "2025-03-01T10:00:00.000000",
+    "created_at": "2025-01-15T10:00:00.000000",
+    "features_enabled": [
+      "erp",
+      "analytics",
+      "multi_location",
+      "api_access"
+    ],
+    "monthly_scans": 15750,
+    "monthly_limit": 25000
+  },
+  "demo-company-2": {
+    "company_id": "demo-company-2",
+    "plan": "large_warehouse",
+    "price": 3999.0,
+    "billing_cycle": "monthly",
+    "status": "active",
+    "is_trial": false,
+    "users": 1,
+    "start_date": "2025-02-01T14:30:00.000000",
+    "next_billing_date": "2025-03-01T14:30:00.000000",
+    "created_at": "2025-02-01T14:30:00.000000",
+    "features_enabled": [
+      "analytics",
+      "multi_location"
+    ],
+    "monthly_scans": 8950,
+    "monthly_limit": 15000
+  },
+  "demo-company-3": {
+    "company_id": "demo-company-3",
+    "plan": "medium_warehouse",
+    "price": 2999.0,
+    "billing_cycle": "monthly",
+    "status": "active",
+    "is_trial": false,
+    "users": 1,
+    "start_date": "2025-02-15T09:30:00.000000",
+    "next_billing_date": "2025-03-15T09:30:00.000000",
+    "created_at": "2025-02-15T09:30:00.000000",
+    "features_enabled": [
+      "analytics"
+    ],
+    "monthly_scans": 4250,
+    "monthly_limit": 8000
+  },
+  "db550163-8e4c-465c-be4c-9237e35efc83": {
+    "company_id": "db550163-8e4c-465c-be4c-9237e35efc83",
+    "plan": "demo_premium",
+    "status": "active",
+    "unlimited_features": true,
+    "ai_optimization_addon": true,
+    "ai_addon_enabled_date": "2025-01-27T00:00:00.000000",
+    "created_at": "2025-08-19T22:02:06.949321",
+    "users": 1
+  },
+  "b6130d03-7917-4dd4-bf76-f683e7e60340": {
+    "company_id": "b6130d03-7917-4dd4-bf76-f683e7e60340",
+    "plan": "demo_premium",
+    "status": "active",
+    "unlimited_features": true,
+    "created_at": "2025-08-21T20:15:26.768290"
+  },
+  "f56cd927-ea9a-4ed8-8b5c-85999d895065": {
+    "company_id": "f56cd927-ea9a-4ed8-8b5c-85999d895065",
+    "plan": "demo_premium",
+    "status": "active",
+    "unlimited_features": true,
+    "created_at": "2025-10-01T18:04:33.909001"
+  }
+}

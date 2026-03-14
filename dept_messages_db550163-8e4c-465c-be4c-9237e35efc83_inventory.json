@@ -1,0 +1,15 @@
+[
+  {
+    "id": "4d6ebaed-fa94-4c35-8067-714302a04303",
+    "sender_id": "emp-005",
+    "sender_name": "Jessica Martinez",
+    "sender_role": "supervisor",
+    "sender_location": "quality_control",
+    "content": "hi",
+    "department": "inventory",
+    "urgent": false,
+    "mentions": [],
+    "timestamp": "2025-08-20T20:03:12.017375",
+    "company_id": "db550163-8e4c-465c-be4c-9237e35efc83"
+  }
+]

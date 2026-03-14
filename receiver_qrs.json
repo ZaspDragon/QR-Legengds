@@ -1,0 +1,22 @@
+{
+  "daabaaf1-347e-4305-af1a-8d15cd5aa591": {
+    "id": "daabaaf1-347e-4305-af1a-8d15cd5aa591",
+    "company_id": "bbca30bd-0850-44b9-9ea3-7b3bedec30ee",
+    "employee_id": "0e6a74c8-f9d4-4c28-babe-810fcf874a5e",
+    "receiver_name": "BRANDON",
+    "department": "DOCK/17",
+    "can_receive_freight": true,
+    "scanner_compatible": true,
+    "created_at": "2025-08-19T21:47:53.252199"
+  },
+  "c12d80b9-8610-435f-a1a3-f7d237c8d594": {
+    "id": "c12d80b9-8610-435f-a1a3-f7d237c8d594",
+    "company_id": "bbca30bd-0850-44b9-9ea3-7b3bedec30ee",
+    "employee_id": "0e6a74c8-f9d4-4c28-babe-810fcf874a5e",
+    "receiver_name": "BRANDON",
+    "department": "RECEIVING/DOCK17",
+    "can_receive_freight": true,
+    "scanner_compatible": true,
+    "created_at": "2025-08-19T21:50:13.331418"
+  }
+}

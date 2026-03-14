@@ -1,0 +1,12 @@
+{
+  "04b7a4cf-66fd-4e61-811a-4c8c99cc158a": {
+    "id": "0f45631b-6820-4f29-82c5-5432cf82317c",
+    "user_id": "04b7a4cf-66fd-4e61-811a-4c8c99cc158a",
+    "user_type": "company",
+    "break_type": "lunch",
+    "start_time": "2025-08-06T05:32:30.254728",
+    "status": "completed",
+    "end_time": "2025-08-06T05:32:32.888814",
+    "duration_minutes": 0
+  }
+}

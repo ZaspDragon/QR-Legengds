@@ -1,0 +1,105 @@
+{
+  "demo-company-1": {
+    "id": "demo-company-1",
+    "name": "TechFlow Manufacturing",
+    "email": "admin@techflow.com",
+    "password": "demo123",
+    "created_at": "2025-08-28T13:57:46.161822",
+    "subscription_status": "active",
+    "features": [
+      "inventory",
+      "receiving",
+      "shipping",
+      "analytics"
+    ],
+    "warehouse_config": {
+      "sections": [
+        "A",
+        "B",
+        "C"
+      ],
+      "max_rows": 10,
+      "max_positions": 20,
+      "max_heights": 5
+    }
+  },
+  "demo-company-2": {
+    "id": "demo-company-2",
+    "name": "Global Parts LLC",
+    "email": "demo@globalparts.com",
+    "password": "demo123",
+    "created_at": "2025-08-28T13:57:46.161835",
+    "subscription_status": "active",
+    "features": [
+      "inventory",
+      "receiving",
+      "quality",
+      "transfers"
+    ],
+    "warehouse_config": {
+      "sections": [
+        "A",
+        "B"
+      ],
+      "max_rows": 8,
+      "max_positions": 15,
+      "max_heights": 4
+    }
+  },
+  "demo-company-3": {
+    "id": "demo-company-3",
+    "name": "Premier Automotive Parts",
+    "company_name": "Premier Automotive Parts",
+    "username": "premierparts",
+    "email": "operations@premierparts.com",
+    "password": "6f6aea97daf2579ed1975820600ba3fe1a980e0405d96d8126c5369cf676aa19",
+    "created_at": "2025-02-15T09:30:00.000000",
+    "employer_code": "AUTO2025",
+    "registration_ip": "192.168.1.102",
+    "first_login": false,
+    "industry": "Automotive",
+    "phone": "+1-555-0789",
+    "website": "https://premierparts.com"
+  },
+  "db550163-8e4c-465c-be4c-9237e35efc83": {
+    "id": "db550163-8e4c-465c-be4c-9237e35efc83",
+    "name": "QR LEGENDS Demo Company",
+    "email": "qrlegends22@gmail.com",
+    "employer_code": "DEMO2025",
+    "created_at": "2025-08-19T22:02:06.949302",
+    "status": "active",
+    "plan": "demo_premium",
+    "integrations": {
+      "erp_enabled": true,
+      "salespad_enabled": true,
+      "website_integration": true,
+      "ai_features": true,
+      "advanced_analytics": true
+    }
+  },
+  "b6130d03-7917-4dd4-bf76-f683e7e60340": {
+    "id": "b6130d03-7917-4dd4-bf76-f683e7e60340",
+    "name": "QR LEGENDS Demo Company",
+    "email": "qrlegends22@gmail.com",
+    "employer_code": "DEMO2025",
+    "created_at": "2025-08-21T20:15:26.768268",
+    "status": "active",
+    "plan": "demo_premium",
+    "integrations": {
+      "erp_enabled": true,
+      "salespad_enabled": true,
+      "website_integration": true,
+      "ai_features": true
+    }
+  },
+  "f56cd927-ea9a-4ed8-8b5c-85999d895065": {
+    "id": "f56cd927-ea9a-4ed8-8b5c-85999d895065",
+    "name": "QR LEGENDS Demo Company",
+    "email": "qrlegends22@gmail.com",
+    "password": "demo123",
+    "employer_code": "DEMO2025",
+    "created_at": "2025-10-01T18:04:33.908944",
+    "status": "active",
+    "plan": "demo_premium"
+  }
+}

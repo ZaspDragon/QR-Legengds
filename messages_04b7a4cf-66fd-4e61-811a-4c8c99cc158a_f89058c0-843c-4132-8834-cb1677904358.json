@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1754264047580",
+    "content": "I've reviewed your recent performance metrics and would like to discuss your progress and set new goals.",
+    "sender": "manager",
+    "timestamp": "2025-08-03T23:34:07.580Z",
+    "type": "performance"
+  },
+  {
+    "id": "1754264055919",
+    "content": "Please see me in my office when you have a moment.",
+    "sender": "manager",
+    "timestamp": "2025-08-03T23:34:15.919Z",
+    "type": null
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "timestamp": "2025-07-30T00:59:38.198119",
+    "to_email": "qrlegends22@gmail.com",
+    "subject": "QR LEGENDS - Subscription Upgraded: QR LEGENDS",
+    "body": "\nSubscription Upgraded for QR LEGENDS\n\nUpgrade Details:\n- Previous Plan: Trial\n- New Plan: Per User Subscription\n- Upgrade Date: 2025-07-30 00:59:38\n- Current Users: 1\n- New Monthly Charge: $25.00\n\nCompany Information:\n- Company Name: QR LEGENDS\n- Company Email: sidehustlellp@gmail.com\n- Employer Code: 0THFGWDI\n\n--\nQR LEGENDS Billing System\n        ",
+    "details": {
+      "previous_plan": "Trial",
+      "new_plan": "Per User Subscription",
+      "upgrade_date": "2025-07-30 00:59:38",
+      "user_count": 1,
+      "monthly_charge": 25.0
+    }
+  },
+  {
+    "timestamp": "2025-07-30T00:59:58.454319",
+    "to_email": "qrlegends22@gmail.com",
+    "subject": "QR LEGENDS - Subscription Cancelled: QR LEGENDS",
+    "body": "\nSubscription Cancelled for QR LEGENDS\n\nCancellation Details:\n- Company Name: QR LEGENDS\n- Company Email: sidehustlellp@gmail.com\n- Cancellation Date: 2025-07-30 00:59:58\n- Effective Date: 2025-08-01\n- Reason: other\n- User Feedback: Testing\n\nFinal Billing Information:\n- User Count: 1\n- Final Monthly Amount: $25.00\n\nCompany Information:\n- Employer Code: 0THFGWDI\n\nUser Feedback: Testing\n\n--\nQR LEGENDS Billing System\n        ",
+    "details": {
+      "company_name": "QR LEGENDS",
+      "company_email": "sidehustlellp@gmail.com",
+      "cancellation_reason": "other",
+      "feedback": "Testing",
+      "cancellation_date": "2025-07-30 00:59:58",
+      "effective_date": "2025-08-01",
+      "final_amount": 25.0,
+      "user_count": 1
+    }
+  }
+]
